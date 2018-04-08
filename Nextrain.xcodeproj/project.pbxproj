@@ -1,0 +1,445 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B066D410207A4DAC00440025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D40F207A4DAC00440025 /* AppDelegate.swift */; };
+		B066D412207A4DAC00440025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D411207A4DAC00440025 /* ViewController.swift */; };
+		B066D415207A4DAC00440025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B066D413207A4DAC00440025 /* Main.storyboard */; };
+		B066D417207A4DAC00440025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B066D416207A4DAC00440025 /* Assets.xcassets */; };
+		B066D41A207A4DAC00440025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B066D418207A4DAC00440025 /* LaunchScreen.storyboard */; };
+		B066D425207A4DAC00440025 /* NextrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D424207A4DAC00440025 /* NextrainTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B066D421207A4DAC00440025 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B066D404207A4DAC00440025 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B066D40B207A4DAC00440025;
+			remoteInfo = Nextrain;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B066D40C207A4DAC00440025 /* Nextrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nextrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B066D40F207A4DAC00440025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B066D411207A4DAC00440025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B066D414207A4DAC00440025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B066D416207A4DAC00440025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B066D419207A4DAC00440025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B066D41B207A4DAC00440025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B066D420207A4DAC00440025 /* NextrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B066D424207A4DAC00440025 /* NextrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextrainTests.swift; sourceTree = "<group>"; };
+		B066D426207A4DAC00440025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B066D409207A4DAC00440025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B066D41D207A4DAC00440025 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B066D403207A4DAC00440025 = {
+			isa = PBXGroup;
+			children = (
+				B066D40E207A4DAC00440025 /* Nextrain */,
+				B066D423207A4DAC00440025 /* NextrainTests */,
+				B066D40D207A4DAC00440025 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B066D40D207A4DAC00440025 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B066D40C207A4DAC00440025 /* Nextrain.app */,
+				B066D420207A4DAC00440025 /* NextrainTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B066D40E207A4DAC00440025 /* Nextrain */ = {
+			isa = PBXGroup;
+			children = (
+				B066D40F207A4DAC00440025 /* AppDelegate.swift */,
+				B066D411207A4DAC00440025 /* ViewController.swift */,
+				B066D413207A4DAC00440025 /* Main.storyboard */,
+				B066D416207A4DAC00440025 /* Assets.xcassets */,
+				B066D418207A4DAC00440025 /* LaunchScreen.storyboard */,
+				B066D41B207A4DAC00440025 /* Info.plist */,
+			);
+			path = Nextrain;
+			sourceTree = "<group>";
+		};
+		B066D423207A4DAC00440025 /* NextrainTests */ = {
+			isa = PBXGroup;
+			children = (
+				B066D424207A4DAC00440025 /* NextrainTests.swift */,
+				B066D426207A4DAC00440025 /* Info.plist */,
+			);
+			path = NextrainTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B066D40B207A4DAC00440025 /* Nextrain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B066D429207A4DAC00440025 /* Build configuration list for PBXNativeTarget "Nextrain" */;
+			buildPhases = (
+				B066D408207A4DAC00440025 /* Sources */,
+				B066D409207A4DAC00440025 /* Frameworks */,
+				B066D40A207A4DAC00440025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Nextrain;
+			productName = Nextrain;
+			productReference = B066D40C207A4DAC00440025 /* Nextrain.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B066D41F207A4DAC00440025 /* NextrainTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B066D42C207A4DAC00440025 /* Build configuration list for PBXNativeTarget "NextrainTests" */;
+			buildPhases = (
+				B066D41C207A4DAC00440025 /* Sources */,
+				B066D41D207A4DAC00440025 /* Frameworks */,
+				B066D41E207A4DAC00440025 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B066D422207A4DAC00440025 /* PBXTargetDependency */,
+			);
+			name = NextrainTests;
+			productName = NextrainTests;
+			productReference = B066D420207A4DAC00440025 /* NextrainTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B066D404207A4DAC00440025 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = ariel;
+				TargetAttributes = {
+					B066D40B207A4DAC00440025 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					B066D41F207A4DAC00440025 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B066D40B207A4DAC00440025;
+					};
+				};
+			};
+			buildConfigurationList = B066D407207A4DAC00440025 /* Build configuration list for PBXProject "Nextrain" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B066D403207A4DAC00440025;
+			productRefGroup = B066D40D207A4DAC00440025 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B066D40B207A4DAC00440025 /* Nextrain */,
+				B066D41F207A4DAC00440025 /* NextrainTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B066D40A207A4DAC00440025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B066D41A207A4DAC00440025 /* LaunchScreen.storyboard in Resources */,
+				B066D417207A4DAC00440025 /* Assets.xcassets in Resources */,
+				B066D415207A4DAC00440025 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B066D41E207A4DAC00440025 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B066D408207A4DAC00440025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B066D412207A4DAC00440025 /* ViewController.swift in Sources */,
+				B066D410207A4DAC00440025 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B066D41C207A4DAC00440025 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B066D425207A4DAC00440025 /* NextrainTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B066D422207A4DAC00440025 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B066D40B207A4DAC00440025 /* Nextrain */;
+			targetProxy = B066D421207A4DAC00440025 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B066D413207A4DAC00440025 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B066D414207A4DAC00440025 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B066D418207A4DAC00440025 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B066D419207A4DAC00440025 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B066D427207A4DAC00440025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B066D428207A4DAC00440025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B066D42A207A4DAC00440025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nextrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ariel.Nextrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B066D42B207A4DAC00440025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Nextrain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ariel.Nextrain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B066D42D207A4DAC00440025 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NextrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ariel.NextrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nextrain.app/Nextrain";
+			};
+			name = Debug;
+		};
+		B066D42E207A4DAC00440025 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = NextrainTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = ariel.NextrainTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Nextrain.app/Nextrain";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B066D407207A4DAC00440025 /* Build configuration list for PBXProject "Nextrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B066D427207A4DAC00440025 /* Debug */,
+				B066D428207A4DAC00440025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B066D429207A4DAC00440025 /* Build configuration list for PBXNativeTarget "Nextrain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B066D42A207A4DAC00440025 /* Debug */,
+				B066D42B207A4DAC00440025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B066D42C207A4DAC00440025 /* Build configuration list for PBXNativeTarget "NextrainTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B066D42D207A4DAC00440025 /* Debug */,
+				B066D42E207A4DAC00440025 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B066D404207A4DAC00440025 /* Project object */;
+}
