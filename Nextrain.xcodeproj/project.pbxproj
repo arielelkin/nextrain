@@ -8,11 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		B066D410207A4DAC00440025 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D40F207A4DAC00440025 /* AppDelegate.swift */; };
-		B066D412207A4DAC00440025 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D411207A4DAC00440025 /* ViewController.swift */; };
-		B066D415207A4DAC00440025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B066D413207A4DAC00440025 /* Main.storyboard */; };
+		B066D412207A4DAC00440025 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D411207A4DAC00440025 /* MainViewController.swift */; };
 		B066D417207A4DAC00440025 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B066D416207A4DAC00440025 /* Assets.xcassets */; };
 		B066D41A207A4DAC00440025 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B066D418207A4DAC00440025 /* LaunchScreen.storyboard */; };
 		B066D425207A4DAC00440025 /* NextrainTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D424207A4DAC00440025 /* NextrainTests.swift */; };
+		B066D431207A4E6100440025 /* SWXMLHash.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B066D430207A4E6100440025 /* SWXMLHash.framework */; };
+		B066D433207A4EFF00440025 /* Networker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D432207A4EFF00440025 /* Networker.swift */; };
+		B066D436207A78E800440025 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D435207A78E800440025 /* APIClient.swift */; };
+		B066D438207A78EF00440025 /* Parser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B066D437207A78EF00440025 /* Parser.swift */; };
+		B07E6665207A85FB00EA0823 /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B07E6664207A85FB00EA0823 /* SearchTextField.swift */; };
+		B09E383B207B7016004E97AA /* TrainDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E383A207B7016004E97AA /* TrainDetailViewController.swift */; };
+		B09E383D207B7E7B004E97AA /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = B09E383C207B7E7B004E97AA /* Train.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,14 +34,20 @@
 /* Begin PBXFileReference section */
 		B066D40C207A4DAC00440025 /* Nextrain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Nextrain.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B066D40F207A4DAC00440025 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B066D411207A4DAC00440025 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B066D414207A4DAC00440025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B066D411207A4DAC00440025 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		B066D416207A4DAC00440025 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B066D419207A4DAC00440025 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B066D41B207A4DAC00440025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B066D420207A4DAC00440025 /* NextrainTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NextrainTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B066D424207A4DAC00440025 /* NextrainTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextrainTests.swift; sourceTree = "<group>"; };
 		B066D426207A4DAC00440025 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B066D430207A4E6100440025 /* SWXMLHash.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SWXMLHash.framework; path = Carthage/Build/iOS/SWXMLHash.framework; sourceTree = "<group>"; };
+		B066D432207A4EFF00440025 /* Networker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Networker.swift; sourceTree = "<group>"; };
+		B066D435207A78E800440025 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		B066D437207A78EF00440025 /* Parser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Parser.swift; sourceTree = "<group>"; };
+		B07E6664207A85FB00EA0823 /* SearchTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		B09E383A207B7016004E97AA /* TrainDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailViewController.swift; sourceTree = "<group>"; };
+		B09E383C207B7E7B004E97AA /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B066D431207A4E6100440025 /* SWXMLHash.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,6 +75,7 @@
 				B066D40E207A4DAC00440025 /* Nextrain */,
 				B066D423207A4DAC00440025 /* NextrainTests */,
 				B066D40D207A4DAC00440025 /* Products */,
+				B067AB82207ABF3C00DB0172 /* 3rd Party */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,8 +92,12 @@
 			isa = PBXGroup;
 			children = (
 				B066D40F207A4DAC00440025 /* AppDelegate.swift */,
-				B066D411207A4DAC00440025 /* ViewController.swift */,
-				B066D413207A4DAC00440025 /* Main.storyboard */,
+				B066D411207A4DAC00440025 /* MainViewController.swift */,
+				B09E383A207B7016004E97AA /* TrainDetailViewController.swift */,
+				B09E383C207B7E7B004E97AA /* Train.swift */,
+				B066D435207A78E800440025 /* APIClient.swift */,
+				B066D437207A78EF00440025 /* Parser.swift */,
+				B066D432207A4EFF00440025 /* Networker.swift */,
 				B066D416207A4DAC00440025 /* Assets.xcassets */,
 				B066D418207A4DAC00440025 /* LaunchScreen.storyboard */,
 				B066D41B207A4DAC00440025 /* Info.plist */,
@@ -96,6 +114,24 @@
 			path = NextrainTests;
 			sourceTree = "<group>";
 		};
+		B066D42F207A4E6100440025 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B066D430207A4E6100440025 /* SWXMLHash.framework */,
+			);
+			name = Frameworks;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		B067AB82207ABF3C00DB0172 /* 3rd Party */ = {
+			isa = PBXGroup;
+			children = (
+				B07E6664207A85FB00EA0823 /* SearchTextField.swift */,
+				B066D42F207A4E6100440025 /* Frameworks */,
+			);
+			path = "3rd Party";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +142,7 @@
 				B066D408207A4DAC00440025 /* Sources */,
 				B066D409207A4DAC00440025 /* Frameworks */,
 				B066D40A207A4DAC00440025 /* Resources */,
+				B066D434207A512E00440025 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -181,7 +218,6 @@
 			files = (
 				B066D41A207A4DAC00440025 /* LaunchScreen.storyboard in Resources */,
 				B066D417207A4DAC00440025 /* Assets.xcassets in Resources */,
-				B066D415207A4DAC00440025 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,13 +230,39 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B066D434207A512E00440025 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/SWXMLHash.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/SVProgressHUD.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SWXMLHash.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/SVProgressHUD.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/bin/sh\n\n/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B066D408207A4DAC00440025 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B066D412207A4DAC00440025 /* ViewController.swift in Sources */,
+				B066D412207A4DAC00440025 /* MainViewController.swift in Sources */,
 				B066D410207A4DAC00440025 /* AppDelegate.swift in Sources */,
+				B066D438207A78EF00440025 /* Parser.swift in Sources */,
+				B066D436207A78E800440025 /* APIClient.swift in Sources */,
+				B09E383D207B7E7B004E97AA /* Train.swift in Sources */,
+				B09E383B207B7016004E97AA /* TrainDetailViewController.swift in Sources */,
+				B066D433207A4EFF00440025 /* Networker.swift in Sources */,
+				B07E6665207A85FB00EA0823 /* SearchTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -223,14 +285,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B066D413207A4DAC00440025 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B066D414207A4DAC00440025 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B066D418207A4DAC00440025 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -354,6 +408,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Nextrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ariel.Nextrain;
@@ -368,6 +426,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = Nextrain/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ariel.Nextrain;

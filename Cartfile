@@ -1,0 +1,3 @@
+github "drmohundro/SWXMLHash" ~> 4.0
+github "SVProgressHUD/SVProgressHUD"
+
